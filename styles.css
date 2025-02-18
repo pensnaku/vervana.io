@@ -15,3 +15,47 @@ body {
 #menu-bar {
   margin-top: 12px;
 }
+
+
+.col a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  
+}
+h1{
+  text-align: center;
+  font-weight: 600;
+  margin-top: 8%;
+}
+#brush-stroke{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#top-p {
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#mid-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+#mid-text p {
+  width: 250px;
+  font-size: 12px;
+}
+
+#mid-image {
+  text-align: center;
+}
+#mid-image img{
+  width: 200px;
+}
+#mid-image{
+  position: relative;
+}
