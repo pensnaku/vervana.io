@@ -23,7 +23,7 @@ body {
   font-size: 14px;
   
 }
-h1{
+#top-header{
   margin: 0 auto;
   text-align: center;
   font-weight: 600;
@@ -41,20 +41,23 @@ h1{
   margin: 0 auto;
   text-align: center;
   padding-top: 2%;
+  padding-bottom: 5%;
 }
 
 #mid-text {
   display: flex;
   justify-content: space-between;
   margin-top: 10%;
+  padding-bottom: 2%
 }
 #mid-text p {
-  width: 250px;
-  font-size: 12px;
+  width: 270px;
+  font-size: 15px;
 }
 
 #mid-image {
   text-align: center;
+  padding-bottom: 5%;
 }
 #mid-image img{
   width: 200px;
@@ -64,8 +67,69 @@ h1{
   display: flex;
   justify-content: space-between;
   margin-top: 10%;
+  padding-bottom: 3%;
 }
 #portfolio-text p {
-  width: 250px;
-  font-size: 12px;
+  width: 290px;
+  font-size: 15px;
+}
+.carousel-item img {
+text-align: center;
+margin: 0 auto;
+height: 15%;
+padding-bottom: 30%;
+
+}
+.contact-section{
+  padding-bottom: 30px;
+}
+.contact-section-content{
+  display: flex;
+  justify-content: space-between;
+}
+.contact-section-text{
+  width: 450px;
+}
+.contact-section h2{
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+.contact-section-text h1{
+  font-size: 60px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+form input{
+  display: block;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 300px;
+  padding: 5px;
+
+}
+#input1  {
+  padding-bottom: 20px;
+}
+#input2  {
+  padding-bottom: 20px;
+}
+#input3  {
+  padding-bottom: 20px;
+}
+textarea {
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+  border: 2px solid black;
+  color: rgb(54, 51, 51);
+}
+
+#submit-button {
+  width: 300px;
+  border: none;
+  background-color: rgb(69, 69, 235);
+  color: white;
+  border-radius: 50px;
+  height: 40px;
+
 }
