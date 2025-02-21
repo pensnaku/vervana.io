@@ -17,16 +17,18 @@ body {
 }
 
 
-.col a{
+#navbar-link a{
   text-decoration: none;
   color: black;
   font-size: 14px;
   
 }
 h1{
+  margin: 0 auto;
   text-align: center;
   font-weight: 600;
-  margin-top: 8%;
+  margin-top: 16%;
+  font-size: 90px;
 }
 #brush-stroke{
   display: block;
@@ -34,10 +36,11 @@ h1{
   margin-right: auto;
 
 }
-#top-p {
+#top-paragraph {
   width: 350px;
   margin: 0 auto;
   text-align: center;
+  padding-top: 2%;
 }
 
 #mid-text {
@@ -56,6 +59,13 @@ h1{
 #mid-image img{
   width: 200px;
 }
-#mid-image{
-  position: relative;
+
+#portfolio-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+#portfolio-text p {
+  width: 250px;
+  font-size: 12px;
 }
