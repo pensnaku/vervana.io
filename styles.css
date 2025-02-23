@@ -15,14 +15,35 @@ body {
 #menu-bar {
   margin-top: 12px;
 }
-
+.navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
 
 #navbar-link a{
   text-decoration: none;
   color: black;
-  font-size: 14px;
-  
+  font-size: 16px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
+#navbar-link a:hover{
+  background-color: #5566EE;
+  color: azure;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#navbar-link a:active {
+  background-color: #5566EE;
+  color: azure;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
 #top-header{
   margin: 0 auto;
   text-align: center;
@@ -43,7 +64,9 @@ body {
   padding-top: 2%;
   padding-bottom: 5%;
 }
-
+#about {
+  padding-top: 10px;
+}
 #mid-text {
   display: flex;
   justify-content: space-between;
@@ -61,6 +84,9 @@ body {
 }
 #mid-image img{
   width: 200px;
+}
+#portfolio {
+  padding-top: 5px;
 }
 
 #portfolio-text {

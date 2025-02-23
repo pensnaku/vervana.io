@@ -23,23 +23,23 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body class="container-fluid wrapper">
+  <body class="container-fluid">
     <div class="container-fluid">
-      <div class="row align-items-start">
-        <div class="col col-2">
-          <img src="images/logo.png" width="100%" id="logo"/>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid ">
+          <div>
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo.png" alt="Logo" width="150" height="65">
+          </a>
         </div>
-        <div class="col col-10" id="menu-bar">
-          <div class="col">
-            <div class="row" id="navbar-link">
-              <a class="col" href="#">Home</a>
-              <a class="col" href="#">About</a>
-              <a class="col" href="#">Contact</a>
-              <button type="button" class="col btn btn-primary">Contact</button>
-            </div>
+        <div id="navbar-link">
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </div>
           </div>
-        </div>
-      </div>
+      </nav>
 
 
       <section>
@@ -48,7 +48,7 @@
       <p id="top-paragraph">Your success drives everything we do. We push boundaries, solve challenges, and build with you, not just for you</p>
     </section>
     
-<section>
+<section id="about">
     <div id="mid-text">
       <h2>Our process</h2>
       <p>We help you turn your vision into reality, by crafting and delivering your project with a focus on quality and a smooth user experience </p>
@@ -64,7 +64,7 @@
     </div>
   </section>
 
-  <div class="portfolio-section">
+  <div class="portfolio-section" id="portfolio">
     <div id="portfolio-text">
     <h2>Our portfolio</h2>
     <p>We pride ourselves into how much care we put into the work that we do</p>
@@ -93,7 +93,7 @@
   </div>
   </div>
 
-  <div class="contact-section">
+  <div class="contact-section" id="contact">
 <h2>Contact us</h2>
 <div class="contact-section-content">
 <div class="contact-section-text">
